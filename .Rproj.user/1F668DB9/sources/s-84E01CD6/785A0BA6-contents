@@ -1,0 +1,10 @@
+version
+library()
+sessionInfo
+library(ggplot2)
+abc<-mpg
+View(abc)
+mpg
+print("directory of project")
+print("pwd stands for Print Working Directory in Git Bash")
+
