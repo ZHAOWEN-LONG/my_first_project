@@ -76,6 +76,22 @@ matrix_4
 matrix_5<-cbind(p,q) ####p, q line up in separate columns in c(olumn)binding
 matrix_5
 
+##Factors are used to represent categorical data.Factors are self describing (e.g. male, female), than 1 and 2 representing them
+
+z<-c("yes","yes","maybe")
+z ## factor(c()) is different from c()
+
+x<-factor(c("yes","yes","maybe","no","maybe","yes"))
+x
+table(x)  ## summarize the data
+unclass(x) ## peek into how R works unclassify the factors 
+
+
+y<-factor(c("yes","yes","maybe","no","maybe","yes"),levels=c("yes","maybe","no"))  
+## above code line also set the order of the levels, instead of alphabetical sequence
+y
+unclass(y)
+
 
 
 
